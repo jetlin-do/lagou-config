@@ -16,4 +16,5 @@ public class ProductServiceImpl implements ProductService {
     public Products queryById(Integer id) {
         return productMapper.selectById(id);
     }
+
 }
